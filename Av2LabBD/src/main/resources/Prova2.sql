@@ -3,14 +3,14 @@ GO
 USE av2LabBD
 GO
 INSERT INTO Curso (nome) VALUES 
-('An·lise e Desenvolvimento de Sistemas (ADS)'),
-('ComÈrcio Exterior'),
-('Desenvolvimento de Produtos Pl·sticos'),
+('An√°lise e Desenvolvimento de Sistemas (ADS)'),
+('Com√©rcio Exterior'),
+('Desenvolvimento de Produtos Pl√°sticos'),
 ('Desenvolvimento de Software Multiplataforma'),
-('Gest„o de Recursos Humanos'),
-('Gest„o Empresarial'),
-('LogÌstica'),
-('PolÌmeros')
+('Gest√£o de Recursos Humanos'),
+('Gest√£o Empresarial'),
+('Log√≠stica'),
+('Pol√≠meros')
 GO
 CREATE TABLE temp_curiosidades(
 id				INT		IDENTITY(1,1),
@@ -46,7 +46,7 @@ CREATE TRIGGER t_updelcandidato ON candidato
 FOR UPDATE, DELETE
 AS
 BEGIN
-	RAISERROR('N„o È permitido atualizar ou excluir candidatos', 16, 1)
+	RAISERROR('N√£o √© permitido atualizar ou excluir candidatos', 16, 1)
 	ROLLBACK TRANSACTION
 END
 GO
@@ -54,7 +54,7 @@ CREATE TRIGGER t_delcuriosidade ON curiosidade
 FOR DELETE
 AS
 BEGIN
-	RAISERROR('N„o È permitido excluir curiosidades', 16, 1)
+	RAISERROR('N√£o √© permitido excluir curiosidades', 16, 1)
 	ROLLBACK TRANSACTION
 END
 GO
@@ -95,16 +95,3 @@ BEGIN
 
 RETURN
 END
--- Teste a procedure
-DECLARE @resultado INT
-EXEC sp_retornacuriosidade 1, @resultado OUTPUT  -- Use cÛdigo de desenvolvedora que existe
-SELECT @resultado as Codigo_Retornado
-
--- Verifique as curiosidades disponÌveis
-SELECT * FROM temp_curiosidades
-SELECT * FROM dbo.f_escolheCuriosidade(1)
--- Verifique se os dados foram inseridos corretamente
-SELECT * FROM loginAdmin;
-
--- Verifique se os dados foram inseridos corretamente
-SELECT * FROM curiosidade;
