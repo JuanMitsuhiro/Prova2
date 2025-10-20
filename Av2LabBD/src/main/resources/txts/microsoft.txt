@@ -1,0 +1,15 @@
+O nome "Xbox" foi uma abreviação interna para DirectX Box, em referência à tecnologia DirectX da Microsoft, essencial para os jogos no PC.
+O primeiro Xbox (2001) foi pensado inicialmente para rodar uma versão adaptada do Windows 2000, mas a ideia foi abandonada para se concentrar em jogos.
+O controle original do primeiro Xbox era tão grande que ganhou o apelido de "Duke" (Duque) e precisou ser substituído pelo menor "Controller S" fora da América do Norte.
+O console original foi o primeiro a integrar uma porta Ethernet de fábrica, preparando o caminho para jogos online.
+A Microsoft comprou a Bungie para garantir que Halo: Combat Evolved, um jogo que seria exclusivo do Mac, fosse o título de lançamento do Xbox em 2001.
+O Xbox Live (lançado em 2002) foi a primeira rede de console online a oferecer chat de voz integrado em jogos.
+A aquisição da Rare (criadora de Donkey Kong Country e GoldenEye 007) em 2002 foi uma jogada-chave para competir com a Nintendo.
+O Xbox 360 foi o primeiro console da geração a ser lançado, chegando ao mercado em 2005, um ano antes de seus concorrentes diretos (PS3 e Wii).
+O tristemente famoso "Red Ring of Death" (RROD) do Xbox 360 foi um erro de hardware tão custoso que a Microsoft gastou mais de um bilhão de dólares para consertar e estender a garantia.
+O Kinect (lançado em 2010 para o Xbox 360) detinha o recorde mundial do Guinness como o dispositivo eletrônico de consumo que mais rapidamente vendeu em toda a história.
+O Kinect foi criado por um brasileiro de Curitiba, Alex Kipman, um dos principais inventores de tecnologia na Microsoft.
+A Microsoft publicava jogos para PC, como Flight Simulator (desde 1982) e Age of Empires (desde 1997), muito antes de entrar no mercado de consoles.
+O Xbox 360 foi o primeiro console da Microsoft a ser oficialmente lançado no Brasil, em 2006.
+A Microsoft adquiriu a Mojang (criadora do Minecraft) em 2014, garantindo o controle de uma das franquias de jogos mais vendidas e importantes do mundo.
+O serviço Xbox Game Pass foi lançado em 2017 e mudou o modelo de negócios da indústria, sendo apelidado de "Netflix dos jogos" por oferecer mais de 100 jogos por uma assinatura mensal.
